@@ -9,11 +9,11 @@ public class ConvertMoney {
 
     public static void main(String[] args) {
 		
-		Scanner myObj = new Scanner(System.in);
+	Scanner myObj = new Scanner(System.in);
 	
-		System.out.println("Enter the value of Canadian dollars you want to convert");
+	System.out.println("Enter the value of Canadian dollars you want to convert");
 	
-		double valueCAD = myObj.nextDouble();
+	double valueCAD = myObj.nextDouble();
 
         double valueUSD, valueEUR;
          
