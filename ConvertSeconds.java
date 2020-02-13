@@ -9,16 +9,16 @@ public class ConvertSeconds {
 
     public static void main(String[] args) {
 		
-		Scanner myObj = new Scanner(System.in);
+	Scanner myObj = new Scanner(System.in);
 	
-		System.out.println("Enter an amount of seconds");
+	System.out.println("Enter an amount of seconds");
 		
-		int secondsInput = myObj.nextInt();
+	int secondsInput = myObj.nextInt();
 		
-		int minutesOutput = secondsInput / 60;
-		int secondsOutput = secondsInput % 60;
+	int minutesOutput = secondsInput / 60;
+	int secondsOutput = secondsInput % 60;
 		
-		System.out.println(secondsInput + " seconds in minutes:seconds format is " + minutesOutput + ":" + secondsOutput );
-	}
+	System.out.println(secondsInput + " seconds in minutes:seconds format is " + minutesOutput + ":" + secondsOutput);
+    }
 
 }
