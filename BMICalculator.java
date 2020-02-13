@@ -9,21 +9,23 @@ public class BMICalculator {
 
     public static void main(String[] args) {
 		
-	Scanner myObj = new Scanner(System.in);
+		Scanner myObj = new Scanner(System.in);
 	
-	System.out.println("Enter your weight in pounds");
-	
-	double weightKg = myObj.nextDouble() * 0.453592; //1 pound = 0.453592 kilograms
+		System.out.println("Enter your weight in pounds");
 		
-	System.out.println("Enter your height in feet");
+		final double lbsToKg = 0.453592;
+		double weightKg = myObj.nextDouble() * lbsToKg; 
 		
-        double heightMeters = myObj.nextDouble() * 0.3048; //1 foot = 0.3048 meters
+		System.out.println("Enter your height in feet");
 		
-	double bodyMassIndex = weightKg / Math.pow(heightMeters, 2);
+		final double ftToM = 0.3048;
+        double heightMeters = myObj.nextDouble() * ftToM; 
+		
+		double bodyMassIndex = weightKg / Math.pow(heightMeters, 2);
 
-        System.out.println("Your weight in kilograms is " + weightKg);
-        System.out.println("Your height in meters is " + heightMeters);
-	System.out.println("Your BMI is " + bodyMassIndex);
+        System.out.println("Your weight converts to " + weightKg + " kilograms");
+        System.out.println("Your height converts to " + heightMeters + " meters");
+		System.out.println("Your BMI is " + bodyMassIndex);
     }
 
 }
