@@ -13,19 +13,19 @@ public class APRectangle {
 	
 		System.out.println("Enter the length of the rectangle");
 
-        double length = myObj.nextDouble();
+        	double length = myObj.nextDouble();
 		
 		System.out.println("Enter the width of the rectangle");
 		
-        double width = myObj.nextDouble();
+        	double width = myObj.nextDouble();
 
-        double area, perimeter;
+        	double area, perimeter;
 
-        area = length * width;
-        perimeter = (2*length) + (2*width);
+        	area = length * width;
+        	perimeter = (2*length) + (2*width);
 
-        System.out.println("The area of this rectangle is " + area);
-        System.out.println("The perimeter of this rectangle is " + perimeter);
+        	System.out.println("The area of this rectangle is " + area);
+        	System.out.println("The perimeter of this rectangle is " + perimeter);
     }
 
 }
