@@ -9,9 +9,9 @@ public class ConvertDistance {
 
     public static void main(String[] args) {
 		
-		Scanner myObj = new Scanner(System.in);
+	Scanner myObj = new Scanner(System.in);
 	
-		System.out.println("Enter the value of distance in meters you want to convert");
+	System.out.println("Enter the value of distance in meters you want to convert");
 
         double distanceMeters = myObj.nextDouble();
 
