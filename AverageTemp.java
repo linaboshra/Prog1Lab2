@@ -10,23 +10,23 @@ public class AverageTemp {
 
     public static void main(String[] args) {
 		
-		Scanner myObj = new Scanner(System.in);
+	Scanner myObj = new Scanner(System.in);
 	
-		System.out.println("Enter the temperature in Celsius of the first day");
+	System.out.println("Enter the temperature in Celsius of the first day");
 	
-		double firstTemp = myObj.nextDouble();
+	double firstTemp = myObj.nextDouble();
 		
-		System.out.println("Enter the temperature in Celsius of the second day");
+	System.out.println("Enter the temperature in Celsius of the second day");
 	
-		double secondTemp = myObj.nextDouble();
+	double secondTemp = myObj.nextDouble();
 		
-		System.out.println("Enter the temperature in Celsius of the third day");
+	System.out.println("Enter the temperature in Celsius of the third day");
 		
-		double thirdTemp = myObj.nextDouble();
+	double thirdTemp = myObj.nextDouble();
 		
-		double averageTemp = ( firstTemp + secondTemp + thirdTemp ) / 3;
+	double averageTemp = ( firstTemp + secondTemp + thirdTemp ) / 3;
 		
-		System.out.println("The average temperature is " + averageTemp + " degrees Celsius");
+	System.out.println("The average temperature is " + averageTemp + " degrees Celsius");
     }
 
 }
